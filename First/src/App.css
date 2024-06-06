@@ -15,8 +15,6 @@
   font-weight: 700;
 }
 
-
-
 .heart {
   width: 10vw;
   height: 3vw;
@@ -26,8 +24,7 @@ h1 {
   font-size: 2em;
 }
 
-
-button{
+button {
   position: absolute;
   left: 38%;
   bottom: 10px;
@@ -38,4 +35,25 @@ button{
   border: none;
   font-size: 1vw;
   outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10vw 11vw;
+  }
+
+  .heart {
+    width: 13vw;
+    height: 12vw;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  button {
+    left: 14%;
+    padding: 3vw 3vw;
+    font-size: 4vw;
+  }
 }

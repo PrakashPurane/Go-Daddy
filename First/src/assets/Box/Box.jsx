@@ -18,7 +18,6 @@ const Box = () => {
           <img src={Chef} alt="" />
         </div>
       </div>
-      
     </>
   );
 };
